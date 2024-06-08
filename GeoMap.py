@@ -12,7 +12,7 @@ url = "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/NYC_Ce
 tracts = gpd.read_file(url)
 
 # Load your CSV file into a DataFrame
-df = pd.read_csv("C:\\Users\\User\\Desktop\\Practice Coding\\PythonProjects\\FedEx Office Project\\CensusYellowPages\\NewMergedYellowPagesData.csv",low_memory=False)
+df = pd.read_csv("C:\\Users\\User\\Desktop\\Practice Coding\\PythonProjects\\FedEx Office Project\\NewGitProject\\NewMergedYellowPagesData.csv",low_memory=False)
 
 # Create a new DataFrame to hold the latitude and longitude as Points
 geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
