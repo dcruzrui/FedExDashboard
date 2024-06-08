@@ -4,7 +4,7 @@ import folium
 import branca
 
 # Load your data
-df = pd.read_csv('https://media.githubusercontent.com/media/dcruzrui/dashboard/main/NewMergedYellowPagesData.csv',low_memory=False)
+df = pd.read_csv('https://media.githubusercontent.com/media/dcruzrui/FedExDashboard/master/NewMergedYellowPagesData.csv',low_memory=False)
 
 # Extract the last 5 characters from the 'Address' column to create a new 'ZIP' column
 df['ZIP'] = df['Address'].str[-5:]
