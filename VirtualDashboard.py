@@ -7,7 +7,7 @@ import re
 import folium
 from folium.plugins import MarkerCluster
 
-file_path = "https://media.githubusercontent.com/media/dcruzrui/dashboard/main/NewMergedYellowPagesData.csv"
+file_path = "https://media.githubusercontent.com/media/dcruzrui/FedExDashboard/master/NewMergedYellowPagesData.csv"
 df = pd.read_csv(file_path, engine='python')
 
 
